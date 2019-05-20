@@ -32,6 +32,6 @@ pipeline {
 //          helm upgrade --wait --install -f ${username}-backend.yaml --set image.tag=${img_tag} --namespace ${username} --tiller-namespace ${username} ${username}-employee-management-backend ../kubemania/employee-management-backend/
 //        """
 //      }
-    }
+//    }
   }
 }
