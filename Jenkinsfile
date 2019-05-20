@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    dockerhub_username = '<dockerhub_username>'
+    dockerhub_username = 'stefanhaenen'
     img_name = 'spring-hello'
     img_tag = sh (returnStdout: true, script: 'git log -1 --pretty=%h').trim()
     username = 'user7'
